@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace PrizeCalculator
 {
     class Program
@@ -23,7 +21,7 @@ namespace PrizeCalculator
         {
             do
             {
-                Console.Clear();
+                TestarCalcularPremio();
                 Console.WriteLine("Calculadora de Prêmios");
 
                 Console.Write("Digite o valor base do prêmio: ");
@@ -91,11 +89,47 @@ namespace PrizeCalculator
             if (valor <= 0)
                 return 0;
 
-            if (tipo == TipoPremio.Proprio && multiplicadorProprio.HasValue && multiplicadorProprio.Value > 0)
+            if (multiplicadorProprio.HasValue && multiplicadorProprio.Value > 0)
                 return valor * multiplicadorProprio.Value;
+
 
             decimal multiplicador = ObterMultiplicador(tipo);
             return valor * multiplicador;
+        }
+
+         static void TestarCalcularPremio()
+        {
+            decimal valorBase1 = 100;
+            string tipo1 = "Vip";
+            decimal? mult1 = null;
+            decimal resultadoEsperado1 = 120.00m;
+            decimal resultadoCalculado1 = CalcularPremio(valorBase1, Enum.Parse<TipoPremio>(tipo1, true), mult1);
+
+            if (resultadoCalculado1 == resultadoEsperado1)
+            {
+                Console.WriteLine($"Teste passou: CalcularPremio({valorBase1}, \"{tipo1}\", {mult1}) == {resultadoEsperado1}");
+            }
+            else
+            {
+                Console.WriteLine($"Teste falhou: CalcularPremio({valorBase1}, \"{tipo1}\", {mult1}) != {resultadoEsperado1}");
+            }
+
+            decimal valorBase2 = 100;
+            string tipo2 = "Basic";
+            decimal? mult2 = 3;
+            decimal resultadoEsperado2 = 300.00m;
+            decimal resultadoCalculado2 = CalcularPremio(valorBase2, Enum.Parse<TipoPremio>(tipo2, true), mult2);
+
+            if (resultadoCalculado2 == resultadoEsperado2)
+            {
+                Console.WriteLine($"Teste passou: CalcularPremio({valorBase2}, \"{tipo2}\", {mult2}) == {resultadoEsperado2}");
+
+            }
+            else
+            {
+                Console.WriteLine($"Teste falhou: CalcularPremio({valorBase2}, \"{tipo2}\", {mult2}) != {resultadoEsperado2}");
+                Console.WriteLine($"{resultadoCalculado2}");
+            }
         }
     }
 }
