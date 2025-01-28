@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace VowelCounter
+namespace ContadorVogal
 {
     class Program
     {
@@ -13,8 +11,8 @@ namespace VowelCounter
         {
             do
             {
-                Console.Clear();
-                Console.WriteLine("Contador de Vogais");
+                TestarContadorVogais();
+                Console.WriteLine("\n\nContador de Vogais");
 
                 Console.Write("Digite o texto para contar as vogais: ");
                 string texto = Console.ReadLine();
@@ -72,6 +70,21 @@ namespace VowelCounter
                 }
             }
             Console.WriteLine();
+        }
+        static void TestarContadorVogais()
+        {
+            Console.WriteLine("Executando teste do contador de vogais:");
+            string textoTeste = "Luby Software";
+            int resultadoEsperado = 4;
+            int resultadoObtido = CalcularVogais(textoTeste);
+            
+            Console.WriteLine($"\nTeste para o texto: '{textoTeste}'");
+            Console.WriteLine($"Resultado esperado: {resultadoEsperado}");
+            Console.WriteLine($"Resultado obtido: {resultadoObtido}");
+            Console.WriteLine($"Teste passou: {resultadoObtido == resultadoEsperado}");
+            
+            Console.Write("Vogais encontradas no teste: ");
+            MostrarVogaisEncontradas(textoTeste);
         }
     }
 }
