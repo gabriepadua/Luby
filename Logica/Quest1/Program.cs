@@ -1,12 +1,9 @@
-﻿using System;
-
 namespace FactorialCalculator
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Chama a func para iniciar o programa
             IniciarFatorial();
         }
 
@@ -14,12 +11,11 @@ namespace FactorialCalculator
         {
             do
             {
-                Console.Clear();
+                TestarCalcularFatorial();
                 Console.WriteLine("Cálculo de Fatorial");
-                Console.WriteLine("--------------------");
-                Console.Write("Digite um número para calcular o fatorial: ");
+                Console.WriteLine("Digite um número para calcular o fatorial: ");
 
-                if (int.TryParse(Console.ReadLine(), out int numero)) // Converte a entrada em um número inteiro
+                if (int.TryParse(Console.ReadLine(), out int numero))
                 {
                     if (numero < 0)
                     {
@@ -27,7 +23,7 @@ namespace FactorialCalculator
                     }
                     else
                     {
-                        long resultado = CalcularFatorial(numero); // Chama a func Fatorial para fazer os cálculos
+                        long resultado = CalcularFatorial(numero);
                         Console.WriteLine($"O fatorial de {numero} é: {resultado}");
                     }
                 }
@@ -38,17 +34,29 @@ namespace FactorialCalculator
 
                 Console.WriteLine("\nPressione qualquer tecla para calcular novamente ou ESC para sair...");
             }
-            while (Console.ReadKey(true).Key != ConsoleKey.Escape); // Sai do loop se ESC for pressionado
+            while (Console.ReadKey(true).Key != ConsoleKey.Escape);
         }
 
         static long CalcularFatorial(int n)
         {
-            long resultado = 1; // Lógica -> Vai multiplicando de 1 até "n"
+            long resultado = 1;
             for (int i = 1; i <= n; i++)
             {
-                resultado *= i; // Multiplica o resultado acumulado pelo número atual do loop (i).
+                resultado *= i;
             }
             return resultado;
+        }
+
+         static void TestarCalcularFatorial()
+        {
+            int numeroTeste = 5;
+            long resultadoEsperado = 120;
+            long resultadoCalculado = CalcularFatorial(numeroTeste);
+
+            if (resultadoCalculado == resultadoEsperado)
+            {
+                Console.WriteLine($"Teste passou: CalcularFatorial({numeroTeste}) == {resultadoEsperado}");
+            }
         }
     }
 }
