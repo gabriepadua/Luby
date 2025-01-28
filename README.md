@@ -1,5 +1,3 @@
-# Luby
-
 ## Soluções de desafios propostos pela empresa Luby
 
 ## O repositório está separado em 3 pastas:
