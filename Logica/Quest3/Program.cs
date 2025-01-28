@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PrimeCounter
+namespace ContadorPrimos
 {
     class Program
     {
@@ -13,8 +11,8 @@ namespace PrimeCounter
         {
             do
             {
-                Console.Clear();
-                Console.Write("Digite um número para contar os primos até ele: ");
+                TestarContadorPrimos();
+                Console.Write("\n\nDigite um número para contar os primos até ele: ");
 
                 if (int.TryParse(Console.ReadLine(), out int numero))
                 {
@@ -35,7 +33,7 @@ namespace PrimeCounter
 
                 Console.WriteLine("\nPressione qualquer tecla para contar novamente ou ESC para sair...");
             }
-            while (Console.ReadKey(true).Key != ConsoleKey.Escape); // Sai do loop se ESC for pressionado
+            while (Console.ReadKey(true).Key != ConsoleKey.Escape);
         }
 
         static int ContarNumerosPrimos(int limite)
@@ -68,5 +66,18 @@ namespace PrimeCounter
 
             return true;
         }
+        static void TestarContadorPrimos()
+        {
+            Console.WriteLine("Executando teste do contador de números primos:");
+            int limite = 10;
+            int resultadoEsperado = 4;
+            int resultadoObtido = ContarNumerosPrimos(limite);
+            
+            Console.WriteLine($"\nTeste para números primos até {limite}:");
+            Console.WriteLine($"Resultado esperado: {resultadoEsperado}");
+            Console.WriteLine($"Resultado obtido: {resultadoObtido}");
+            Console.WriteLine($"Teste passou: {resultadoObtido == resultadoEsperado}");
+        }
+
     }
 }
