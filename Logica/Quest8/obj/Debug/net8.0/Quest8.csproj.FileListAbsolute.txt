@@ -1,0 +1,14 @@
+C:\Users\gabrielpa\Desktop\Luby\Quest8\bin\Debug\net8.0\Quest8.exe
+C:\Users\gabrielpa\Desktop\Luby\Quest8\bin\Debug\net8.0\Quest8.deps.json
+C:\Users\gabrielpa\Desktop\Luby\Quest8\bin\Debug\net8.0\Quest8.runtimeconfig.json
+C:\Users\gabrielpa\Desktop\Luby\Quest8\bin\Debug\net8.0\Quest8.dll
+C:\Users\gabrielpa\Desktop\Luby\Quest8\bin\Debug\net8.0\Quest8.pdb
+C:\Users\gabrielpa\Desktop\Luby\Quest8\obj\Debug\net8.0\Quest8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabrielpa\Desktop\Luby\Quest8\obj\Debug\net8.0\Quest8.AssemblyInfoInputs.cache
+C:\Users\gabrielpa\Desktop\Luby\Quest8\obj\Debug\net8.0\Quest8.AssemblyInfo.cs
+C:\Users\gabrielpa\Desktop\Luby\Quest8\obj\Debug\net8.0\Quest8.csproj.CoreCompileInputs.cache
+C:\Users\gabrielpa\Desktop\Luby\Quest8\obj\Debug\net8.0\Quest8.dll
+C:\Users\gabrielpa\Desktop\Luby\Quest8\obj\Debug\net8.0\refint\Quest8.dll
+C:\Users\gabrielpa\Desktop\Luby\Quest8\obj\Debug\net8.0\Quest8.pdb
+C:\Users\gabrielpa\Desktop\Luby\Quest8\obj\Debug\net8.0\Quest8.genruntimeconfig.cache
+C:\Users\gabrielpa\Desktop\Luby\Quest8\obj\Debug\net8.0\ref\Quest8.dll
