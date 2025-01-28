@@ -1,0 +1,14 @@
+C:\Users\gabrielpa\Desktop\Luby\Quest9\bin\Debug\net8.0\Quest9.exe
+C:\Users\gabrielpa\Desktop\Luby\Quest9\bin\Debug\net8.0\Quest9.deps.json
+C:\Users\gabrielpa\Desktop\Luby\Quest9\bin\Debug\net8.0\Quest9.runtimeconfig.json
+C:\Users\gabrielpa\Desktop\Luby\Quest9\bin\Debug\net8.0\Quest9.dll
+C:\Users\gabrielpa\Desktop\Luby\Quest9\bin\Debug\net8.0\Quest9.pdb
+C:\Users\gabrielpa\Desktop\Luby\Quest9\obj\Debug\net8.0\Quest9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabrielpa\Desktop\Luby\Quest9\obj\Debug\net8.0\Quest9.AssemblyInfoInputs.cache
+C:\Users\gabrielpa\Desktop\Luby\Quest9\obj\Debug\net8.0\Quest9.AssemblyInfo.cs
+C:\Users\gabrielpa\Desktop\Luby\Quest9\obj\Debug\net8.0\Quest9.csproj.CoreCompileInputs.cache
+C:\Users\gabrielpa\Desktop\Luby\Quest9\obj\Debug\net8.0\Quest9.dll
+C:\Users\gabrielpa\Desktop\Luby\Quest9\obj\Debug\net8.0\refint\Quest9.dll
+C:\Users\gabrielpa\Desktop\Luby\Quest9\obj\Debug\net8.0\Quest9.pdb
+C:\Users\gabrielpa\Desktop\Luby\Quest9\obj\Debug\net8.0\Quest9.genruntimeconfig.cache
+C:\Users\gabrielpa\Desktop\Luby\Quest9\obj\Debug\net8.0\ref\Quest9.dll
