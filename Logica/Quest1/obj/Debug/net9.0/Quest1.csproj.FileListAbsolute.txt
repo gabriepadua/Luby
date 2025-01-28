@@ -1,0 +1,14 @@
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\bin\Debug\net9.0\Quest1.exe
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\bin\Debug\net9.0\Quest1.deps.json
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\bin\Debug\net9.0\Quest1.runtimeconfig.json
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\bin\Debug\net9.0\Quest1.dll
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\bin\Debug\net9.0\Quest1.pdb
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\obj\Debug\net9.0\Quest1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\obj\Debug\net9.0\Quest1.AssemblyInfoInputs.cache
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\obj\Debug\net9.0\Quest1.AssemblyInfo.cs
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\obj\Debug\net9.0\Quest1.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\obj\Debug\net9.0\Quest1.dll
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\obj\Debug\net9.0\refint\Quest1.dll
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\obj\Debug\net9.0\Quest1.pdb
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\obj\Debug\net9.0\Quest1.genruntimeconfig.cache
+C:\Users\Gabriel\Desktop\DEV\Testes Entrevistas\Luby\Quest1\obj\Debug\net9.0\ref\Quest1.dll
