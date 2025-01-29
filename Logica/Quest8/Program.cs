@@ -1,13 +1,11 @@
-﻿using System;
-
 class Program
 {
     static void Main(string[] args)
     {
-        IniciarCalc();
+        IniciarBusca();
     }
 
-    static void IniciarCalc()
+    static void IniciarBusca()
     {
         TesteBuscarPessoa();
 
