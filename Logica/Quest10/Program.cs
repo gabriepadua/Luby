@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace TransMatriz
 {
     class Program
@@ -61,12 +59,22 @@ namespace TransMatriz
             int[] vetor1 = { 1, 2, 3, 4, 5 };
             int[] vetor2 = { 1, 2, 5 };
             int[] resultado1 = ObterElementosFaltantes(vetor1, vetor2);
-            Console.WriteLine("Teste 1: [ " + string.Join(", ", resultado1) + " ] == Esperado: [ 3, 4 ]");
+            Console.WriteLine("Resultado 1: [ " + string.Join(", ", resultado1) + " ] == Esperado: [ 3, 4 ]");
 
             int[] vetor3 = { 1, 4, 5 };
             int[] vetor4 = { 1, 2, 3, 4, 5 };
             int[] resultado2 = ObterElementosFaltantes(vetor3, vetor4);
-            Console.WriteLine("Teste 2: [ " + string.Join(", ", resultado2) + " ] == Esperado: [ 2, 3 ]");
+            Console.WriteLine("Resultado 2: [ " + string.Join(", ", resultado2) + " ] == Esperado: [ 2, 3 ]");
+
+            int[] vetor5 = { 1, 2, 3, 4 };
+            int[] vetor6 = { 2, 3, 4, 5 };
+            int[] resultado3 = ObterElementosFaltantes(vetor5, vetor6);
+            Console.WriteLine("Resultado 3: [ " + string.Join(", ", resultado3) + " ] == Esperado: [ 1, 5 ]");
+
+            int[] vetor7 = { 1, 3, 4, 5 };
+            int[] vetor8 = { 1, 3, 4, 5 };
+            int[] resultado4 = ObterElementosFaltantes(vetor7, vetor8);
+            Console.WriteLine("Resultado 4: [ " + string.Join(", ", resultado4) + " ] == Esperado: [ ]");
         }
     }
 }
